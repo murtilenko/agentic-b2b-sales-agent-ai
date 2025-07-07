@@ -1,6 +1,8 @@
 import os
 import json
 import openai
+from agent.utils.prompts import SALES_EMAIL_PROMPT
+from agent.utils.logger import logger
 
 # === Config ===
 MATCH_RESULTS_DIR = "data/match_results"
@@ -32,21 +34,15 @@ def load_match_results():
 def build_prompt(company_data, company_info):
     company_name = company_data["company_name"]
     matched = company_data.get("matched_products", [])
-    product_list = "\n".join([f"- {p['brand']} {p['product_name']} (score: {p['score']})" for p in matched]) or "None"
+    product_list = "\n".join(
+        [f"- {p['brand']} {p['product_name']} (score: {p['score']})" for p in matched]
+    ) or "None"
 
-    return f"""You are a B2B sales representative writing an outbound cold email to {company_name}.
-
-Your company's info:
-{company_info}
-
-The following products may be relevant to {company_name}:
-{product_list}
-
-Write a concise and professional sales email to {company_name}'s procurement team. Mention the relevant product category, highlight key features, and offer to share more information or samples.
-
-Do not overpromise. Assume this is a first outreach.
-Keep it under 200 words.
-"""
+    return SALES_EMAIL_PROMPT.format(
+        company_name=company_name,
+        company_info=company_info,
+        product_list=product_list
+    )
 
 
 def generate_email(prompt):

@@ -3,6 +3,8 @@ import json
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
+from agent.utils.logger import logger
+
 
 # Configuration
 LEADS_FILE = "data/leads_parsed.json"

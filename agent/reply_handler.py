@@ -2,6 +2,7 @@ import openai
 import datetime
 from agent.memory_manager import get_conversation, update_conversation, mark_as_manual
 from agent.utils.logger import logger
+from agent.utils.prompts import REPLY_ANALYSIS_PROMPT
 
 
 def gpt_analyze_reply(conversation_history: list, latest_reply: str) -> dict:
@@ -9,23 +10,10 @@ def gpt_analyze_reply(conversation_history: list, latest_reply: str) -> dict:
     formatted_history = "\n\n".join(
         [f"{msg['sender']}: {msg['content']}" for msg in conversation_history]
     )
-    prompt = f"""You are an intelligent B2B sales assistant. Here is the recent email thread:
-
-{formatted_history}
-
-The latest reply from the customer is:
-"{latest_reply}"
-
-Analyze the customer's intent and suggest:
-1. Whether to continue the conversation or not (yes/no)
-2. A suggested follow-up message (if continuing)
-
-Reply in JSON format like:
-{{
-  "continue": true,
-  "suggested_reply": "Thanks for your interest! Here’s more info..."
-}}"""
-
+    prompt = REPLY_ANALYSIS_PROMPT.format(
+        conversation_history=formatted_history,
+        latest_reply=latest_reply
+    )
     try:
         response = openai.ChatCompletion.create(
             model="gpt-4o",
