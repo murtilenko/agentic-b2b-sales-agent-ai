@@ -1,0 +1,26 @@
+{
+  "company_name": "\"Seattle Sutton's\"",
+  "matched_products": [
+    {
+      "product_name": "large container",
+      "brand": "Freskboard",
+      "score": 0.284
+    },
+    {
+      "product_name": "small container",
+      "brand": "Freskboard",
+      "score": 0.282
+    },
+    {
+      "product_name": "medium container",
+      "brand": "Freskboard",
+      "score": 0.282
+    },
+    {
+      "product_name": "extra-large container",
+      "brand": "Freskboard",
+      "score": 0.274
+    }
+  ],
+  "missing_website_data": false
+}

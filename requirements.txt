@@ -1,0 +1,18 @@
+# Core dependencies
+pandas
+openpyxl
+requests
+beautifulsoup4
+python-dotenv
+streamlit
+
+# LLM & AI agent stack
+langchain
+openai
+
+# Optional: logging and parsing helpers
+tqdm
+lxml
+
+# Defensive: block problematic dependency
+pyarrow==0.0.0  # Prevent CMake build errors (not used in this project)

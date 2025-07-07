@@ -1,0 +1,26 @@
+{
+  "company_name": "Sparta Imports",
+  "matched_products": [
+    {
+      "product_name": "large container",
+      "brand": "Freskboard",
+      "score": 0.274
+    },
+    {
+      "product_name": "small container",
+      "brand": "Freskboard",
+      "score": 0.272
+    },
+    {
+      "product_name": "medium container",
+      "brand": "Freskboard",
+      "score": 0.272
+    },
+    {
+      "product_name": "extra-large container",
+      "brand": "Freskboard",
+      "score": 0.264
+    }
+  ],
+  "missing_website_data": false
+}

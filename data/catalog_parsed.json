@@ -1,0 +1,906 @@
+[
+  {
+    "brand": "Boardsio",
+    "product_name": "Retail Coffee Box",
+    "description": "Retail paper boxes for solid or powdered goods. Eco-friendly, plastic-like durability.",
+    "target_industries": [
+      "retail-packaged-goods",
+      "specialty-grocery",
+      "caf\u00e9-branded-merch",
+      "subscription-boxes",
+      "e-commerce-fulfillment"
+    ],
+    "target_product_types": [
+      "ground coffee",
+      "whole bean coffee",
+      "instant coffee sachets",
+      "coffee pods"
+    ],
+    "keywords": [
+      "coffee_box",
+      "retail_packaging",
+      "eco_box",
+      "ground_coffee",
+      "caf\u00e9_merch"
+    ]
+  },
+  {
+    "brand": "Boardsio",
+    "product_name": "Retail Protein Powder Box",
+    "description": "Retail paper boxes for solid or powdered goods. Eco-friendly, plastic-like durability.",
+    "target_industries": [
+      "sports-nutrition",
+      "supplement-retail",
+      "direct-to-consumer",
+      "co-packer-supplements",
+      "e-commerce-fulfillment"
+    ],
+    "target_product_types": [
+      "protein powder",
+      "meal replacement mix",
+      "creatine powder",
+      "collagen powder"
+    ],
+    "keywords": [
+      "protein_powder_box",
+      "supplement_packaging",
+      "fitness_use",
+      "eco_retail_carton"
+    ]
+  },
+  {
+    "brand": "Boardsio",
+    "product_name": "Retail Gum Box",
+    "description": "Retail paper boxes for solid or powdered goods. Eco-friendly, plastic-like durability.",
+    "target_industries": [
+      "confectionery",
+      "impulse-retail",
+      "post-mix vending",
+      "airport-duty-free"
+    ],
+    "target_product_types": [
+      "chewing gum",
+      "mints",
+      "nicotine gum",
+      "functional gum (vitamin",
+      "energy)"
+    ],
+    "keywords": [
+      "gum_box",
+      "small_format_retail",
+      "mint_pack",
+      "impulse_purchase_box"
+    ]
+  },
+  {
+    "brand": "Boardsio",
+    "product_name": "Retail Baking Mix Box",
+    "description": "Retail paper boxes for solid or powdered goods. Eco-friendly, plastic-like durability.",
+    "target_industries": [
+      "baking-supply-retail",
+      "co-packer-baking",
+      "subscription-kits",
+      "gourmet-retail"
+    ],
+    "target_product_types": [
+      "pancake mix",
+      "cake mix",
+      "brownie mix",
+      "waffle mix"
+    ],
+    "keywords": [
+      "baking_mix_box",
+      "cake_mix_packaging",
+      "dry_food_box",
+      "eco_friendly_carton"
+    ]
+  },
+  {
+    "brand": "Fastfood",
+    "product_name": "Hamburger box",
+    "description": "Simple recyclable fast food packaging for American restaurant chains.",
+    "target_industries": [
+      "quick-service-restaurants (QSR)",
+      "food trucks",
+      "grocery-deli-hot-case",
+      "stadium-concessions"
+    ],
+    "target_product_types": [
+      "hamburgers",
+      "cheeseburgers",
+      "veggie burgers",
+      "sliders"
+    ],
+    "keywords": [
+      "burger_box",
+      "qsr_packaging",
+      "clamshell",
+      "greasy_food",
+      "single_serve"
+    ]
+  },
+  {
+    "brand": "Fastfood",
+    "product_name": "Fries box",
+    "description": "Simple recyclable fast food packaging for American restaurant chains.",
+    "target_industries": [
+      "QSR",
+      "casual-dining",
+      "stadium-foodservice",
+      "food-truck"
+    ],
+    "target_product_types": [
+      "French fries",
+      "sweet potato fries",
+      "loaded fries",
+      "tater tots"
+    ],
+    "keywords": [
+      "fries_box",
+      "side_dish_container",
+      "qsr_fry_holder",
+      "no_lid",
+      "snack_size"
+    ]
+  },
+  {
+    "brand": "Fastfood",
+    "product_name": "Noodle box",
+    "description": "Simple recyclable fast food packaging for American restaurant chains.",
+    "target_industries": [
+      "Asian-quick-service",
+      "food-trucks",
+      "take\u2011away",
+      "meal-kits"
+    ],
+    "target_product_types": [
+      "lo mein",
+      "chow mein",
+      "pad thai",
+      "stir fry noodles"
+    ],
+    "keywords": [
+      "noodle_box",
+      "asian_takeout",
+      "leak_resistant",
+      "folding_paper_box"
+    ]
+  },
+  {
+    "brand": "Fastfood",
+    "product_name": "Hot Dog box",
+    "description": "Simple recyclable fast food packaging for American restaurant chains.",
+    "target_industries": [
+      "concession-stands",
+      "QSR",
+      "stadium & fair vendors",
+      "mobile-food-cart"
+    ],
+    "target_product_types": [
+      "hot dogs",
+      "sausages",
+      "bratwursts",
+      "chili dogs"
+    ],
+    "keywords": [
+      "hotdog_box",
+      "street_food_packaging",
+      "elongated_tray",
+      "finger_food_container"
+    ]
+  },
+  {
+    "brand": "Fastfood",
+    "product_name": "Food tray",
+    "description": "Simple recyclable fast food packaging for American restaurant chains.",
+    "target_industries": [
+      "cafeteria-catering",
+      "airlines",
+      "hospitals",
+      "institutional-meal-service"
+    ],
+    "target_product_types": [
+      "combo meals",
+      "chicken tenders and fries",
+      "fish & chips",
+      "cafeteria meals"
+    ],
+    "keywords": [
+      "food_tray",
+      "combo_meal",
+      "multi_compartment",
+      "disposable_lunch_tray"
+    ]
+  },
+  {
+    "brand": "Fastfood",
+    "product_name": "Chicken bucket",
+    "description": "Simple recyclable fast food packaging for American restaurant chains.",
+    "target_industries": [
+      "family-meal-QSR",
+      "take-home meals",
+      "party-pack catering",
+      "stadium/party-planner"
+    ],
+    "target_product_types": [
+      "fried chicken",
+      "chicken tenders",
+      "wings",
+      "popcorn chicken"
+    ],
+    "keywords": [
+      "chicken_bucket",
+      "fried_chicken",
+      "family_packaging",
+      "carry_handle",
+      "high_volume"
+    ]
+  },
+  {
+    "brand": "Fastfood",
+    "product_name": "Paper Bowl",
+    "description": "Simple recyclable fast food packaging for American restaurant chains.",
+    "target_industries": [
+      "soup/kitchen-counter",
+      "caf\u00e9",
+      "convenience-store hot-food",
+      "institutional-meals"
+    ],
+    "target_product_types": [
+      "soup",
+      "chili",
+      "mac and cheese",
+      "poke bowls"
+    ],
+    "keywords": [
+      "paper_bowl",
+      "soup_container",
+      "dual_use_hot_cold",
+      "round_base"
+    ]
+  },
+  {
+    "brand": "Fiberfoam",
+    "product_name": "meat trays",
+    "description": "Economical paper tray for raw meat/chicken packaging, suitable for groceries and producers.",
+    "target_industries": [
+      "meat-processor",
+      "wholesale-butchers",
+      "grocery-meat-counter",
+      "warehouse-retail"
+    ],
+    "target_product_types": [
+      "raw ground beef",
+      "chicken breasts",
+      "pork chops",
+      "steak cuts"
+    ],
+    "keywords": [
+      "raw_meat_tray",
+      "foam_base",
+      "butcher_packaging",
+      "cost_effective",
+      "film_wrap"
+    ]
+  },
+  {
+    "brand": "Freskboard",
+    "product_name": "small container",
+    "description": "Paper-based containers with plastic lids for take-out or street food from diners or restaurants.",
+    "target_industries": [
+      "street-food stall",
+      "ethnic-takeout",
+      "food-truck",
+      "caf\u00e9 side-dish"
+    ],
+    "target_product_types": [
+      "small pasta servings",
+      "fruit cups",
+      "hummus & veggies",
+      "side salads"
+    ],
+    "keywords": [
+      "food_container_small",
+      "side_dish",
+      "takeout",
+      "paper_lid_option"
+    ]
+  },
+  {
+    "brand": "Freskboard",
+    "product_name": "medium container",
+    "description": "Paper-based containers with plastic lids for take-out or street food from diners or restaurants.",
+    "target_industries": [
+      "restaurant takeout",
+      "meal-prep service",
+      "catering trays",
+      "buffet services"
+    ],
+    "target_product_types": [
+      "pasta dishes",
+      "rice bowls",
+      "grilled chicken meals",
+      "burrito bowls"
+    ],
+    "keywords": [
+      "food_container_medium",
+      "main_dish",
+      "lunch_pack",
+      "restaurant_takeout"
+    ]
+  },
+  {
+    "brand": "Freskboard",
+    "product_name": "large container",
+    "description": "Paper-based containers with plastic lids for take-out or street food from diners or restaurants.",
+    "target_industries": [
+      "meal-kits",
+      "family take-out",
+      "ghost-kitchen",
+      "catering"
+    ],
+    "target_product_types": [
+      "family-sized meals",
+      "multiple entr\u00e9e meals",
+      "combo platters"
+    ],
+    "keywords": [
+      "food_container_large",
+      "family_meal",
+      "multiple_items",
+      "eco_takeout"
+    ]
+  },
+  {
+    "brand": "Freskboard",
+    "product_name": "extra-large container",
+    "description": "Paper-based containers with plastic lids for take-out or street food from diners or restaurants.",
+    "target_industries": [
+      "bulk catering",
+      "event-foodservice",
+      "banquet setups",
+      "commissary kitchens"
+    ],
+    "target_product_types": [
+      "catering trays",
+      "meal kits",
+      "party food platters"
+    ],
+    "keywords": [
+      "food_container_xl",
+      "catering_box",
+      "bulk_food_packaging",
+      "delivery_safe"
+    ]
+  },
+  {
+    "brand": "Fruity",
+    "product_name": "Berry Box",
+    "description": "Compact produce boxes designed for fresh fruit packaging and display.",
+    "target_industries": [
+      "produce-distributor",
+      "CSA-kits",
+      "farmers\u2019 markets",
+      "grocery-pre-pack-fruit"
+    ],
+    "target_product_types": [
+      "strawberries",
+      "blueberries",
+      "raspberries",
+      "mixed berries"
+    ],
+    "keywords": [
+      "berry_box",
+      "fresh_fruit",
+      "clamshell_packaging",
+      "breathable_lid",
+      "small_portion"
+    ]
+  },
+  {
+    "brand": "Fruity",
+    "product_name": "Tomato Box",
+    "description": "Compact produce boxes designed for fresh fruit packaging and display.",
+    "target_industries": [
+      "specialty-produce-retailer",
+      "organic-grocery",
+      "farmers\u2019-coop packaging"
+    ],
+    "target_product_types": [
+      "cherry tomatoes",
+      "grape tomatoes",
+      "heirloom mini tomatoes"
+    ],
+    "keywords": [
+      "tomato_box",
+      "produce_packaging",
+      "breathable_carton",
+      "retail_fresh"
+    ]
+  },
+  {
+    "brand": "Fruity",
+    "product_name": "Kivi Box",
+    "description": "Compact produce boxes designed for fresh fruit packaging and display.",
+    "target_industries": [
+      "exotic/health-fruit retail",
+      "subscription-snack-box",
+      "produce-subscription"
+    ],
+    "target_product_types": [
+      "kiwi fruit",
+      "golden kiwi",
+      "sliced kiwi"
+    ],
+    "keywords": [
+      "kiwi_box",
+      "exotic_fruit",
+      "individual_fruit_pack",
+      "padded_carton"
+    ]
+  },
+  {
+    "brand": "Fruity",
+    "product_name": "Salad Box",
+    "description": "Compact produce boxes designed for fresh fruit packaging and display.",
+    "target_industries": [
+      "ready-to-eat-produce",
+      "grab-and-go grocery",
+      "deli case",
+      "meal-kit"
+    ],
+    "target_product_types": [
+      "leafy green salads",
+      "Caesar salad",
+      "coleslaw",
+      "ready-to-eat salad kits"
+    ],
+    "keywords": [
+      "salad_box",
+      "rto_salad",
+      "grab_n_go",
+      "deli_counter",
+      "fresh_seal"
+    ]
+  },
+  {
+    "brand": "Octo",
+    "product_name": "oven safe containers",
+    "description": "Premium paper containers with microwave, oven, or compostable options for foodservice applications.",
+    "target_industries": [
+      "ready-meal-retail",
+      "frozen-food",
+      "meal-kit delivery",
+      "supermarket-reheat-ready"
+    ],
+    "target_product_types": [
+      "baked pasta",
+      "lasagna",
+      "meatloaf",
+      "roast vegetables"
+    ],
+    "keywords": [
+      "oven_safe_container",
+      "bake_and_serve",
+      "high_temp_resistant",
+      "frozen_meal_use"
+    ]
+  },
+  {
+    "brand": "Octo",
+    "product_name": "compostable container",
+    "description": "Premium paper containers with microwave, oven, or compostable options for foodservice applications.",
+    "target_industries": [
+      "eco-conscious restaurants",
+      "zero-waste caf\u00e9s",
+      "farmers\u2019-markets",
+      "green-institutional foodservice"
+    ],
+    "target_product_types": [
+      "salads",
+      "grain bowls",
+      "wraps",
+      "vegan meals"
+    ],
+    "keywords": [
+      "compostable_box",
+      "eco_dine_in",
+      "biodegradable_pack",
+      "zero_waste"
+    ]
+  },
+  {
+    "brand": "Octo",
+    "product_name": "microwave safe container",
+    "description": "Premium paper containers with microwave, oven, or compostable options for foodservice applications.",
+    "target_industries": [
+      "convenience-store ready-meals",
+      "QSR delivery",
+      "airline catering",
+      "hospital-meals"
+    ],
+    "target_product_types": [
+      "mac and cheese",
+      "reheatable curry",
+      "meal-prep containers",
+      "frozen dinners"
+    ],
+    "keywords": [
+      "microwave_container",
+      "heat_and_eat",
+      "steam_release",
+      "high_rigidity"
+    ]
+  },
+  {
+    "brand": "Octo",
+    "product_name": "grease barrier container",
+    "description": "Premium paper containers with microwave, oven, or compostable options for foodservice applications.",
+    "target_industries": [
+      "fast-casual burger/shake",
+      "fried-chicken outlets",
+      "greasy street-food stalls"
+    ],
+    "target_product_types": [
+      "burgers",
+      "fried chicken",
+      "empanadas",
+      "falafel wraps"
+    ],
+    "keywords": [
+      "greaseproof_box",
+      "fried_food_packaging",
+      "leak_resistant",
+      "anti_soak"
+    ]
+  },
+  {
+    "brand": "Paperbake",
+    "product_name": "mini loaf pan",
+    "description": "Oven-safe recyclable paper loaf pans and trays for baked goods. Ideal for bakeries and co-packers.",
+    "target_industries": [
+      "artisan bakery",
+      "co-packer-gourmet",
+      "in-store bakery",
+      "specialty-bakery"
+    ],
+    "target_product_types": [
+      "banana bread mini loaves",
+      "mini pound cakes",
+      "muffin loaves",
+      "mini meatloaf"
+    ],
+    "keywords": [
+      "mini_loaf_pan",
+      "snack_size_bake",
+      "brownie_loaf",
+      "small_batch_baking"
+    ]
+  },
+  {
+    "brand": "Paperbake",
+    "product_name": "midi loaf pan",
+    "description": "Oven-safe recyclable paper loaf pans and trays for baked goods. Ideal for bakeries and co-packers.",
+    "target_industries": [
+      "bakery-chain",
+      "private-label cake-makers",
+      "muffin-manufacturer",
+      "pastry-makers"
+    ],
+    "target_product_types": [
+      "medium cakes",
+      "carrot loaf",
+      "savory breads"
+    ],
+    "keywords": [
+      "midi_loaf_pan",
+      "mid_size_bread",
+      "cake_loaf_box",
+      "bakery_use"
+    ]
+  },
+  {
+    "brand": "Paperbake",
+    "product_name": "standart loaf pan",
+    "description": "Oven-safe recyclable paper loaf pans and trays for baked goods. Ideal for bakeries and co-packers.",
+    "target_industries": [
+      "mass-bakery",
+      "supermarket bakery",
+      "co-packer",
+      "wholesale-bread producer"
+    ],
+    "target_product_types": [
+      "sandwich bread",
+      "sourdough",
+      "pound cake",
+      "zucchini bread"
+    ],
+    "keywords": [
+      "standard_loaf_pan",
+      "bread_baking",
+      "sandwich_loaf_size",
+      "classic_pan"
+    ]
+  },
+  {
+    "brand": "Paperbake",
+    "product_name": "baking tray",
+    "description": "Oven-safe recyclable paper loaf pans and trays for baked goods. Ideal for bakeries and co-packers.",
+    "target_industries": [
+      "pastry-shop",
+      "cookie/shortbread producer",
+      "mass bakery line"
+    ],
+    "target_product_types": [
+      "brownies",
+      "sheet cakes",
+      "pie bars",
+      "layered desserts"
+    ],
+    "keywords": [
+      "baking_tray",
+      "brownie_sheet",
+      "cake_base",
+      "flat_bake_surface"
+    ]
+  },
+  {
+    "brand": "Paperbake",
+    "product_name": "baking\u00a0 sheets",
+    "description": "Oven-safe recyclable paper loaf pans and trays for baked goods. Ideal for bakeries and co-packers.",
+    "target_industries": [
+      "catering",
+      "wholesale pastry",
+      "bakery chain",
+      "commercial-kitchen"
+    ],
+    "target_product_types": [
+      "cookies",
+      "baklava",
+      "puff pastries",
+      "granola bars"
+    ],
+    "keywords": [
+      "baking_sheets",
+      "pastry_sheet",
+      "flat_items",
+      "high_volume_bake"
+    ]
+  },
+  {
+    "brand": "Pizza",
+    "product_name": "8\" pizza box",
+    "description": "Durable corrugated pizza boxes tailored for various pizza sizes and retail needs.",
+    "target_industries": [
+      "artisan-pizzeria",
+      "frozen-food",
+      "QSR pizza",
+      "school/office-meal-delivery"
+    ],
+    "target_product_types": [
+      "personal pizza",
+      "kid\u2019s pizza",
+      "frozen pizza",
+      "pizza by the slice"
+    ],
+    "keywords": [
+      "pizza_box_8inch",
+      "personal_pizza",
+      "small_pizza_packaging",
+      "lunch_size_box"
+    ]
+  },
+  {
+    "brand": "Pizza",
+    "product_name": "10\" pizza box",
+    "description": "Durable corrugated pizza boxes tailored for various pizza sizes and retail needs.",
+    "target_industries": [
+      "independent-pizzeria",
+      "retail frozen pizza",
+      "event-catering",
+      "meal-kit"
+    ],
+    "target_product_types": [
+      "small pizzas",
+      "retail frozen pizzas"
+    ],
+    "keywords": [
+      "pizza_box_10inch",
+      "small_pizza",
+      "freezer_pizza_box",
+      "dine_out_slice"
+    ]
+  },
+  {
+    "brand": "Pizza",
+    "product_name": "12\" pizza box",
+    "description": "Durable corrugated pizza boxes tailored for various pizza sizes and retail needs.",
+    "target_industries": [
+      "standard-pizzeria",
+      "take-away chain",
+      "sports-bar delivery"
+    ],
+    "target_product_types": [
+      "standard medium pizza",
+      "artisan pizza"
+    ],
+    "keywords": [
+      "pizza_box_12inch",
+      "medium_pizza",
+      "family_dinner_box",
+      "hot_food_takeaway"
+    ]
+  },
+  {
+    "brand": "Pizza",
+    "product_name": "14\" pizza box",
+    "description": "Durable corrugated pizza boxes tailored for various pizza sizes and retail needs.",
+    "target_industries": [
+      "family-style-pizzeria",
+      "caterer",
+      "freezer-meal kit",
+      "baseball-field vendors"
+    ],
+    "target_product_types": [
+      "large pizza",
+      "combo pizzas"
+    ],
+    "keywords": [
+      "pizza_box_14inch",
+      "large_pizza",
+      "extra_cheese_pizza",
+      "delivery_pack"
+    ]
+  },
+  {
+    "brand": "Pizza",
+    "product_name": "16\" pizza box",
+    "description": "Durable corrugated pizza boxes tailored for various pizza sizes and retail needs.",
+    "target_industries": [
+      "large-order pizzeria",
+      "stadium/event caterer",
+      "corporate-catering"
+    ],
+    "target_product_types": [
+      "extra-large pizza",
+      "family pizza"
+    ],
+    "keywords": [
+      "pizza_box_16inch",
+      "xl_pizza",
+      "party_pizza",
+      "event_packaging"
+    ]
+  },
+  {
+    "brand": "Pizza",
+    "product_name": "18\" pizza box",
+    "description": "Durable corrugated pizza boxes tailored for various pizza sizes and retail needs.",
+    "target_industries": [
+      "party-pizza catering",
+      "large-event-foodservice",
+      "festival-vendors"
+    ],
+    "target_product_types": [
+      "jumbo pizza",
+      "party-size pizza"
+    ],
+    "keywords": [
+      "pizza_box_18inch",
+      "jumbo_pizza",
+      "catering_pack",
+      "rectangular_shape_option"
+    ]
+  },
+  {
+    "brand": "Pizza",
+    "product_name": "20\" pizza box",
+    "description": "Durable corrugated pizza boxes tailored for various pizza sizes and retail needs.",
+    "target_industries": [
+      "stadium catering",
+      "event-caterer",
+      "PVC-large meal-kit"
+    ],
+    "target_product_types": [
+      "giant pizza",
+      "stadium pizza"
+    ],
+    "keywords": [
+      "pizza_box_20inch",
+      "stadium_pizza",
+      "oversized_box",
+      "multi_slice_carry"
+    ]
+  },
+  {
+    "brand": "Skinpck",
+    "product_name": "Raw Meat Box",
+    "description": "Premium recyclable paper-based raw protein boxes for meat/chicken/seafood differentiation.",
+    "target_industries": [
+      "premium-meat-counter",
+      "co-packer-meats",
+      "butchershop",
+      "gourmet-grocery"
+    ],
+    "target_product_types": [
+      "steak cuts",
+      "ground beef",
+      "beef cubes",
+      "veal portions"
+    ],
+    "keywords": [
+      "raw_meat_box",
+      "steak_packing",
+      "vacuum_skin_pack",
+      "butcher_grade"
+    ]
+  },
+  {
+    "brand": "Skinpck",
+    "product_name": "Raw Chicken Box",
+    "description": "Premium recyclable paper-based raw protein boxes for meat/chicken/seafood differentiation.",
+    "target_industries": [
+      "poultry-producer",
+      "premium-grocery",
+      "meal-kit poultry packing",
+      "co-packer"
+    ],
+    "target_product_types": [
+      "chicken breasts",
+      "thighs",
+      "drumsticks",
+      "whole cut-up chicken"
+    ],
+    "keywords": [
+      "raw_chicken_box",
+      "poultry_packaging",
+      "premium_skin_pack",
+      "leakproof_tray"
+    ]
+  },
+  {
+    "brand": "Skinpck",
+    "product_name": "Raw Fish Box",
+    "description": "Premium recyclable paper-based raw protein boxes for meat/chicken/seafood differentiation.",
+    "target_industries": [
+      "seafood-processor",
+      "sushi-grade distributor",
+      "grocery-seafood-case",
+      "high-end seafood counter"
+    ],
+    "target_product_types": [
+      "salmon fillets",
+      "tuna steaks",
+      "whole fish",
+      "tilapia"
+    ],
+    "keywords": [
+      "raw_fish_box",
+      "seafood_container",
+      "fillet_packaging",
+      "ice_friendly"
+    ]
+  },
+  {
+    "brand": "Skinpck",
+    "product_name": "Raw Shrimp Box",
+    "description": "Premium recyclable paper-based raw protein boxes for meat/chicken/seafood differentiation.",
+    "target_industries": [
+      "seafood-importer",
+      "meal-prep shrimp packs",
+      "premium-grocery",
+      "co-packer"
+    ],
+    "target_product_types": [
+      "raw shrimp",
+      "peeled and deveined shrimp",
+      "shrimp skewers"
+    ],
+    "keywords": [
+      "raw_shrimp_box",
+      "shrimp_portion_pack",
+      "crustacean_friendly",
+      "frozen_safe"
+    ]
+  }
+]
