@@ -15,7 +15,5 @@ An intelligent, semi-autonomous agent designed to assist B2B sales by identifyin
 - ✅ Track full email threads with memory
 - ✅ Streamlit UI to review and approve communications
 
----
 
-## 🧱 Architecture
 
