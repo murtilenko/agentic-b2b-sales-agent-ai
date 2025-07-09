@@ -1,8 +1,8 @@
 import os
 import json
 import openai
-from agent.utils.prompts import SALES_EMAIL_PROMPT
-from agent.utils.logger import logger
+from utils.prompts import SALES_EMAIL_PROMPT
+from utils.logger import logger
 
 # === Config ===
 MATCH_RESULTS_DIR = "data/match_results"

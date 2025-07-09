@@ -1,8 +1,8 @@
 import openai
 import datetime
 from agent.memory_manager import get_conversation, update_conversation, mark_as_manual
-from agent.utils.logger import logger
-from agent.utils.prompts import REPLY_ANALYSIS_PROMPT
+from utils.logger import logger
+from utils.prompts import REPLY_ANALYSIS_PROMPT
 
 
 def gpt_analyze_reply(conversation_history: list, latest_reply: str) -> dict:

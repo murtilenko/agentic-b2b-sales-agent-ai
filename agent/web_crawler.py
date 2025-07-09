@@ -3,7 +3,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
-from agent.utils.logger import logger
+from utils.logger import logger
 
 
 # Configuration

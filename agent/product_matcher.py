@@ -3,7 +3,7 @@ import json
 import openai
 from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
-from agent.utils.logger import logger
+from utils.logger import logger
 
 CATALOG_PARSED = "data/catalog_parsed.json"
 LEADS_PARSED = "data/leads_parsed.json"
