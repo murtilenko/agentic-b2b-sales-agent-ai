@@ -1,3 +1,8 @@
+Our Company name is : MJ Supplies
+Contact person: MR. Robot
+Contact Title : VP of AI Sales
+Contact e-mail: mr.robot@mjsupplies.com
+
 We are a global supplier of sustainable packaging products for food businesses.
 
 We specialize in:

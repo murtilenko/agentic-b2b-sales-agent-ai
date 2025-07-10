@@ -2,7 +2,33 @@
   "company_name": "Cake Bae",
   "missing_website_data": false,
   "matches": {
-    "gpt4o": [],
-    "llama3": []
-  }
+    "gpt4o": [
+      {
+        "brand": "Boardsio",
+        "product_name": "Retail Baking Mix Box",
+        "reason": "The Cake Bake Shop offers a variety of baked goods, and eco-friendly retail boxes for baking mixes align with their product offerings."
+      },
+      {
+        "brand": "Paperbake",
+        "product_name": "Baking Tray",
+        "reason": "The Cake Bake Shop specializes in baked goods, making oven-safe recyclable baking trays ideal for their bakery operations."
+      },
+      {
+        "brand": "Paperbake",
+        "product_name": "Mini Loaf Pan",
+        "reason": "The Cake Bake Shop could use these oven-safe recyclable loaf pans for their smaller baked goods, aligning with their bakery needs."
+      },
+      {
+        "brand": "Octo",
+        "product_name": "Oven Safe Containers",
+        "reason": "These containers are suitable for foodservice applications, which could be useful for The Cake Bake Shop's take-out or catering services."
+      },
+      {
+        "brand": "Boardsio",
+        "product_name": "Retail Coffee Box",
+        "reason": "The Cake Bake Shop offers coffee and tea, and eco-friendly retail boxes for coffee align with their product offerings."
+      }
+    ]
+  },
+  "raw_gpt4o_output": "```json\n[\n  {\n    \"brand\": \"Boardsio\",\n    \"product_name\": \"Retail Baking Mix Box\",\n    \"reason\": \"The Cake Bake Shop offers a variety of baked goods, and eco-friendly retail boxes for baking mixes align with their product offerings.\"\n  },\n  {\n    \"brand\": \"Paperbake\",\n    \"product_name\": \"Baking Tray\",\n    \"reason\": \"The Cake Bake Shop specializes in baked goods, making oven-safe recyclable baking trays ideal for their bakery operations.\"\n  },\n  {\n    \"brand\": \"Paperbake\",\n    \"product_name\": \"Mini Loaf Pan\",\n    \"reason\": \"The Cake Bake Shop could use these oven-safe recyclable loaf pans for their smaller baked goods, aligning with their bakery needs.\"\n  },\n  {\n    \"brand\": \"Octo\",\n    \"product_name\": \"Oven Safe Containers\",\n    \"reason\": \"These containers are suitable for foodservice applications, which could be useful for The Cake Bake Shop's take-out or catering services.\"\n  },\n  {\n    \"brand\": \"Boardsio\",\n    \"product_name\": \"Retail Coffee Box\",\n    \"reason\": \"The Cake Bake Shop offers coffee and tea, and eco-friendly retail boxes for coffee align with their product offerings.\"\n  }\n]\n```"
 }

@@ -1,0 +1,24 @@
+{
+  "company_name": "Premium Restaurants of America",
+  "missing_website_data": true,
+  "matches": {
+    "gpt4o": [
+      {
+        "brand": "Octo",
+        "product_name": "Octo oven safe containers",
+        "reason": "These premium containers are suitable for high-end foodservice applications, aligning with the company's focus on premium dining experiences."
+      },
+      {
+        "brand": "Octo",
+        "product_name": "Octo compostable container",
+        "reason": "The eco-friendly and premium nature of these containers fits well with a premium restaurant's commitment to sustainability and quality."
+      },
+      {
+        "brand": "Octo",
+        "product_name": "Octo grease barrier container",
+        "reason": "These containers offer a high-quality solution for packaging greasy foods, maintaining the premium presentation expected by high-end restaurants."
+      }
+    ]
+  },
+  "raw_gpt4o_output": "Based on the company description \"Premium Restaurants of America,\" the focus is likely on high-quality dining experiences, which may include a need for premium packaging solutions that align with their brand image. Here are the top 3 most relevant products from the list:\n\n```json\n[\n  {\n    \"brand\": \"Octo\",\n    \"product_name\": \"Octo oven safe containers\",\n    \"reason\": \"These premium containers are suitable for high-end foodservice applications, aligning with the company's focus on premium dining experiences.\"\n  },\n  {\n    \"brand\": \"Octo\",\n    \"product_name\": \"Octo compostable container\",\n    \"reason\": \"The eco-friendly and premium nature of these containers fits well with a premium restaurant's commitment to sustainability and quality.\"\n  },\n  {\n    \"brand\": \"Octo\",\n    \"product_name\": \"Octo grease barrier container\",\n    \"reason\": \"These containers offer a high-quality solution for packaging greasy foods, maintaining the premium presentation expected by high-end restaurants.\"\n  }\n]\n```"
+}

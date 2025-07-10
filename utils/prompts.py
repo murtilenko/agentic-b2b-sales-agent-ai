@@ -16,15 +16,15 @@ Website Text:
 {lead_website}
 ---
 
-Please write a short and engaging outreach email to this company offering our packaging solutions.
+Instructions:
+- Please write a short and engaging outreach email to this company offering our packaging solutions.
 - Be professional but friendly
-- Reference their industry or product needs if possible
-- Keep it under 200 words
+- Specifically mention with descriptions 2–3 of the matched products and how they fit the lead’s business.
 - Use a real-sounding human tone, not robotic
 - Avoid being pushy or too generic
 - Mention that a product catalog PDF is attached
 - End with a soft CTA (e.g., “We’d love to explore how we can support your packaging needs.”)
-
+- Also ask to connect or view our catalog.
 Output only the **body of the email**, without greeting headers like "Subject:".
 """
 

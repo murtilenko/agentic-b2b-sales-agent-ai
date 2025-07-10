@@ -1,5 +1,34 @@
 {
   "company_name": "\"Toojay's\"",
-  "matched_products": [],
-  "missing_website_data": true
+  "missing_website_data": true,
+  "matches": {
+    "gpt4o": [
+      {
+        "brand": "Boardsio",
+        "product_name": "Boardsio Retail Coffee Box",
+        "reason": "If Toojay's is involved in selling coffee or similar powdered goods, this eco-friendly packaging would be suitable for their retail needs."
+      },
+      {
+        "brand": "Fastfood",
+        "product_name": "Fastfood Hamburger box",
+        "reason": "If Toojay's operates in the fast food sector, this recyclable packaging would be ideal for serving hamburgers."
+      },
+      {
+        "brand": "Freskboard",
+        "product_name": "Freskboard medium container",
+        "reason": "If Toojay's offers take-out or street food, these containers would be practical for packaging and serving their food items."
+      },
+      {
+        "brand": "Octo",
+        "product_name": "Octo compostable container",
+        "reason": "If Toojay's is focused on sustainability and offers food services, these compostable containers would align with their eco-friendly goals."
+      },
+      {
+        "brand": "Paperbake",
+        "product_name": "Paperbake baking tray",
+        "reason": "If Toojay's is involved in baking or selling baked goods, these oven-safe trays would be useful for their operations."
+      }
+    ]
+  },
+  "raw_gpt4o_output": "To provide an accurate analysis, I would need specific information about the company's business focus, industry, or product offerings from their website content. Since the company description for \"Toojay's\" is missing, I'll make some assumptions based on the product catalog provided. If \"Toojay's\" is involved in the food service industry, particularly in retail or fast food, the following products might be relevant:\n\n```json\n[\n  {\n    \"brand\": \"Boardsio\",\n    \"product_name\": \"Boardsio Retail Coffee Box\",\n    \"reason\": \"If Toojay's is involved in selling coffee or similar powdered goods, this eco-friendly packaging would be suitable for their retail needs.\"\n  },\n  {\n    \"brand\": \"Fastfood\",\n    \"product_name\": \"Fastfood Hamburger box\",\n    \"reason\": \"If Toojay's operates in the fast food sector, this recyclable packaging would be ideal for serving hamburgers.\"\n  },\n  {\n    \"brand\": \"Freskboard\",\n    \"product_name\": \"Freskboard medium container\",\n    \"reason\": \"If Toojay's offers take-out or street food, these containers would be practical for packaging and serving their food items.\"\n  },\n  {\n    \"brand\": \"Octo\",\n    \"product_name\": \"Octo compostable container\",\n    \"reason\": \"If Toojay's is focused on sustainability and offers food services, these compostable containers would align with their eco-friendly goals.\"\n  },\n  {\n    \"brand\": \"Paperbake\",\n    \"product_name\": \"Paperbake baking tray\",\n    \"reason\": \"If Toojay's is involved in baking or selling baked goods, these oven-safe trays would be useful for their operations.\"\n  }\n]\n```\n\nPlease provide more specific details about \"Toojay's\" business focus for a more tailored analysis."
 }

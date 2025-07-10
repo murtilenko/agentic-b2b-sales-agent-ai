@@ -1,0 +1,34 @@
+{
+  "company_name": "A1 Cash and Carry",
+  "missing_website_data": true,
+  "matches": {
+    "gpt4o": [
+      {
+        "brand": "Fiberfoam",
+        "product_name": "meat trays",
+        "reason": "Suitable for grocery and wholesale distribution of raw meat products."
+      },
+      {
+        "brand": "Freskboard",
+        "product_name": "large container",
+        "reason": "Ideal for take-out or street food packaging, aligning with foodservice needs."
+      },
+      {
+        "brand": "Octo",
+        "product_name": "compostable container",
+        "reason": "Meets the demand for eco-friendly foodservice packaging solutions."
+      },
+      {
+        "brand": "Pizza",
+        "product_name": "16\" pizza box",
+        "reason": "Essential for wholesale distribution to pizzerias and foodservice businesses."
+      },
+      {
+        "brand": "Skinpck",
+        "product_name": "Raw Meat Box",
+        "reason": "Provides premium packaging for raw protein, suitable for wholesale distribution."
+      }
+    ]
+  },
+  "raw_gpt4o_output": "Based on the company description \"A1 Cash and Carry,\" which suggests a focus on wholesale distribution for foodservice and retail businesses, the following products are identified as the most relevant:\n\n```json\n[\n  {\n    \"brand\": \"Fiberfoam\",\n    \"product_name\": \"meat trays\",\n    \"reason\": \"Suitable for grocery and wholesale distribution of raw meat products.\"\n  },\n  {\n    \"brand\": \"Freskboard\",\n    \"product_name\": \"large container\",\n    \"reason\": \"Ideal for take-out or street food packaging, aligning with foodservice needs.\"\n  },\n  {\n    \"brand\": \"Octo\",\n    \"product_name\": \"compostable container\",\n    \"reason\": \"Meets the demand for eco-friendly foodservice packaging solutions.\"\n  },\n  {\n    \"brand\": \"Pizza\",\n    \"product_name\": \"16\\\" pizza box\",\n    \"reason\": \"Essential for wholesale distribution to pizzerias and foodservice businesses.\"\n  },\n  {\n    \"brand\": \"Skinpck\",\n    \"product_name\": \"Raw Meat Box\",\n    \"reason\": \"Provides premium packaging for raw protein, suitable for wholesale distribution.\"\n  }\n]\n```"
+}

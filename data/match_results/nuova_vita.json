@@ -1,0 +1,34 @@
+{
+  "company_name": "Nuova Vita",
+  "missing_website_data": true,
+  "matches": {
+    "gpt4o": [
+      {
+        "brand": "Boardsio",
+        "product_name": "Retail Coffee Box",
+        "reason": "Eco-friendly packaging for solid or powdered goods, suitable for companies focusing on sustainable retail solutions."
+      },
+      {
+        "brand": "Boardsio",
+        "product_name": "Retail Protein Powder Box",
+        "reason": "Ideal for businesses in the health and wellness sector looking for sustainable packaging options."
+      },
+      {
+        "brand": "Octo",
+        "product_name": "Compostable Container",
+        "reason": "Perfect for companies in the foodservice industry seeking environmentally friendly packaging solutions."
+      },
+      {
+        "brand": "Paperbake",
+        "product_name": "Baking Tray",
+        "reason": "Suitable for bakeries or food producers needing oven-safe, recyclable packaging."
+      },
+      {
+        "brand": "Skinpck",
+        "product_name": "Raw Meat Box",
+        "reason": "Relevant for businesses in the meat industry requiring premium, recyclable packaging for raw proteins."
+      }
+    ]
+  },
+  "raw_gpt4o_output": "To provide an accurate analysis, I would need specific information about the company's business focus, industry, or product needs from their website content. Since the company description for \"Nuova Vita\" is not provided, I'll make some assumptions based on the product catalog and typical B2B needs. If Nuova Vita is involved in eco-friendly packaging solutions or food-related industries, here are the top 5 most relevant products:\n\n```json\n[\n  {\n    \"brand\": \"Boardsio\",\n    \"product_name\": \"Retail Coffee Box\",\n    \"reason\": \"Eco-friendly packaging for solid or powdered goods, suitable for companies focusing on sustainable retail solutions.\"\n  },\n  {\n    \"brand\": \"Boardsio\",\n    \"product_name\": \"Retail Protein Powder Box\",\n    \"reason\": \"Ideal for businesses in the health and wellness sector looking for sustainable packaging options.\"\n  },\n  {\n    \"brand\": \"Octo\",\n    \"product_name\": \"Compostable Container\",\n    \"reason\": \"Perfect for companies in the foodservice industry seeking environmentally friendly packaging solutions.\"\n  },\n  {\n    \"brand\": \"Paperbake\",\n    \"product_name\": \"Baking Tray\",\n    \"reason\": \"Suitable for bakeries or food producers needing oven-safe, recyclable packaging.\"\n  },\n  {\n    \"brand\": \"Skinpck\",\n    \"product_name\": \"Raw Meat Box\",\n    \"reason\": \"Relevant for businesses in the meat industry requiring premium, recyclable packaging for raw proteins.\"\n  }\n]\n```\n\nThese selections are based on the assumption that Nuova Vita is interested in sustainable and eco-friendly packaging solutions, particularly for food-related products. If more specific information about the company's focus is available, the selection could be refined further."
+}

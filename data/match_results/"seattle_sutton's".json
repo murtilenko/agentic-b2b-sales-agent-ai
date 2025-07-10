@@ -1,26 +1,34 @@
 {
   "company_name": "\"Seattle Sutton's\"",
-  "matched_products": [
-    {
-      "product_name": "large container",
-      "brand": "Freskboard",
-      "score": 0.284
-    },
-    {
-      "product_name": "small container",
-      "brand": "Freskboard",
-      "score": 0.282
-    },
-    {
-      "product_name": "medium container",
-      "brand": "Freskboard",
-      "score": 0.282
-    },
-    {
-      "product_name": "extra-large container",
-      "brand": "Freskboard",
-      "score": 0.274
-    }
-  ],
-  "missing_website_data": false
+  "missing_website_data": false,
+  "matches": {
+    "gpt4o": [
+      {
+        "brand": "Octo",
+        "product_name": "Octo oven safe containers",
+        "reason": "Seattle Sutton's offers ready-made meals that are likely to require oven-safe packaging for reheating."
+      },
+      {
+        "brand": "Octo",
+        "product_name": "Octo microwave safe container",
+        "reason": "The company's meals are ready-to-eat, suggesting a need for microwave-safe packaging for customer convenience."
+      },
+      {
+        "brand": "Octo",
+        "product_name": "Octo compostable container",
+        "reason": "Seattle Sutton's emphasizes health and wellness, aligning with eco-friendly, compostable packaging solutions."
+      },
+      {
+        "brand": "Freskboard",
+        "product_name": "Freskboard medium container",
+        "reason": "The company provides freshly prepared meals, which may require medium-sized containers for portion control and delivery."
+      },
+      {
+        "brand": "Freskboard",
+        "product_name": "Freskboard large container",
+        "reason": "For larger meal portions or family-sized meal plans, large containers would be necessary for packaging and delivery."
+      }
+    ]
+  },
+  "raw_gpt4o_output": "```json\n[\n  {\n    \"brand\": \"Octo\",\n    \"product_name\": \"Octo oven safe containers\",\n    \"reason\": \"Seattle Sutton's offers ready-made meals that are likely to require oven-safe packaging for reheating.\"\n  },\n  {\n    \"brand\": \"Octo\",\n    \"product_name\": \"Octo microwave safe container\",\n    \"reason\": \"The company's meals are ready-to-eat, suggesting a need for microwave-safe packaging for customer convenience.\"\n  },\n  {\n    \"brand\": \"Octo\",\n    \"product_name\": \"Octo compostable container\",\n    \"reason\": \"Seattle Sutton's emphasizes health and wellness, aligning with eco-friendly, compostable packaging solutions.\"\n  },\n  {\n    \"brand\": \"Freskboard\",\n    \"product_name\": \"Freskboard medium container\",\n    \"reason\": \"The company provides freshly prepared meals, which may require medium-sized containers for portion control and delivery.\"\n  },\n  {\n    \"brand\": \"Freskboard\",\n    \"product_name\": \"Freskboard large container\",\n    \"reason\": \"For larger meal portions or family-sized meal plans, large containers would be necessary for packaging and delivery.\"\n  }\n]\n```"
 }

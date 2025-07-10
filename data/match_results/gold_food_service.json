@@ -1,5 +1,34 @@
 {
   "company_name": "Gold Food Service",
-  "matched_products": [],
-  "missing_website_data": false
+  "missing_website_data": false,
+  "matches": {
+    "gpt4o": [
+      {
+        "brand": "Boardsio",
+        "product_name": "Retail Coffee Box",
+        "reason": "The company offers a variety of coffee products, making eco-friendly retail coffee boxes relevant for packaging."
+      },
+      {
+        "brand": "Boardsio",
+        "product_name": "Retail Baking Mix Box",
+        "reason": "The company provides baking ingredients like flours and sugars, so eco-friendly baking mix boxes are suitable for packaging these products."
+      },
+      {
+        "brand": "Octo",
+        "product_name": "Oven Safe Containers",
+        "reason": "The company deals with a wide range of food products, and oven-safe containers are ideal for foodservice applications."
+      },
+      {
+        "brand": "Paperbake",
+        "product_name": "Baking Tray",
+        "reason": "The company offers confectionery and baking products, making oven-safe baking trays relevant for their business."
+      },
+      {
+        "brand": "Skinpck",
+        "product_name": "Raw Meat Box",
+        "reason": "The company likely deals with raw food products, and recyclable raw meat boxes are suitable for packaging and differentiation."
+      }
+    ]
+  },
+  "raw_gpt4o_output": "```json\n[\n  {\n    \"brand\": \"Boardsio\",\n    \"product_name\": \"Retail Coffee Box\",\n    \"reason\": \"The company offers a variety of coffee products, making eco-friendly retail coffee boxes relevant for packaging.\"\n  },\n  {\n    \"brand\": \"Boardsio\",\n    \"product_name\": \"Retail Baking Mix Box\",\n    \"reason\": \"The company provides baking ingredients like flours and sugars, so eco-friendly baking mix boxes are suitable for packaging these products.\"\n  },\n  {\n    \"brand\": \"Octo\",\n    \"product_name\": \"Oven Safe Containers\",\n    \"reason\": \"The company deals with a wide range of food products, and oven-safe containers are ideal for foodservice applications.\"\n  },\n  {\n    \"brand\": \"Paperbake\",\n    \"product_name\": \"Baking Tray\",\n    \"reason\": \"The company offers confectionery and baking products, making oven-safe baking trays relevant for their business.\"\n  },\n  {\n    \"brand\": \"Skinpck\",\n    \"product_name\": \"Raw Meat Box\",\n    \"reason\": \"The company likely deals with raw food products, and recyclable raw meat boxes are suitable for packaging and differentiation.\"\n  }\n]\n```"
 }

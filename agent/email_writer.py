@@ -3,16 +3,19 @@ import json
 import openai
 from utils.prompts import SALES_EMAIL_PROMPT
 from utils.logger import logger
+from dotenv import load_dotenv
 
 # === Config ===
 MATCH_RESULTS_DIR = "data/match_results"
 OUTPUT_DIR = "data/emails"
 COMPANY_INFO_FILE = "data/company_info.md"
-USE_GPT = False # 🔄 Set to False to use offline generation
-LIMIT = 1       # 🔁 Limit number of companies for testing
+WEBSITE_CONTENT_DIR = "data/website_content"
+USE_GPT = True  # 🔄 Set to False to use offline generation
+LIMIT = 20       # 🔁 Limit number of companies for testing
 
 # === Setup ===
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
@@ -31,32 +34,53 @@ def load_match_results():
     return jsons[:LIMIT]
 
 
+def load_website_content(company_name):
+    safe_name = company_name.lower().replace(" ", "_").replace("/", "_")
+    path = os.path.join(WEBSITE_CONTENT_DIR, f"{safe_name}.json")
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            return "\n".join(json.load(f).values())
+    return "No website content available."
+
+
 def build_prompt(company_data, company_info):
     company_name = company_data["company_name"]
-    matched = company_data.get("matched_products", [])
-    product_list = "\n".join(
-        [f"- {p['brand']} {p['product_name']} (score: {p['score']})" for p in matched]
-    ) or "None"
 
+    matched = company_data.get("matched_products") or company_data.get("matches", {}).get("gpt4o", [])
+    product_list = "\n".join([
+        f"- {p['brand']} {p['product_name']}: {p.get('reason', '')}" for p in matched
+    ]) or "No relevant products found."
+
+    lead_website = load_website_content(company_name)
+
+    # Fill prompt from prompts.py
     return SALES_EMAIL_PROMPT.format(
-        company_name=company_name,
-        company_info=company_info,
-        product_list=product_list
+        lead_company=company_name,
+        lead_website=lead_website,
+        company_info=company_info + "\n\nRelevant Products:\n" + product_list
     )
 
 
 def generate_email(prompt):
     if USE_GPT:
-        response = openai.ChatCompletion.create(
-            model="gpt-4o",
-            messages=[
-                {"role": "system", "content": "You are a professional B2B sales assistant."},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0.7,
-            max_tokens=300
-        )
-        return response["choices"][0]["message"]["content"]
+        try:
+            response = openai.chat.completions.create(
+                model="gpt-4o",
+                messages=[
+                    {"role": "system", "content": "You are a professional B2B sales assistant."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.7,
+                max_tokens=500
+            )
+            #stop=["\n\n", "---"]
+            #return response["choices"][0]["message"]["content"]
+            return response.choices[0].message.content.strip()
+            print("🔢 Prompt tokens used:", response.usage.prompt_tokens)
+            print("🧠 Completion tokens used:", response.usage.completion_tokens)
+        except Exception as e:
+            logger.error(f"❌ GPT generation failed: {e}")
+            return "[GPT ERROR] Could not generate email."
     else:
         return "[OFFLINE MODE]\n\nDear [Company],\n\nWe thought your business might benefit from some of our packaging solutions. Let us know if you’d like to explore this further.\n\nBest regards,\n[Your Name]"
 

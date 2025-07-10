@@ -1,0 +1,24 @@
+{
+  "company_name": "Together & Company",
+  "missing_website_data": true,
+  "matches": {
+    "gpt4o": [
+      {
+        "brand": "Octo",
+        "product_name": "Octo compostable container",
+        "reason": "Fits the company's potential focus on eco-friendly and sustainable packaging solutions for food service applications."
+      },
+      {
+        "brand": "Freskboard",
+        "product_name": "Freskboard medium container",
+        "reason": "Suitable for take-out or street food, which aligns with potential catering or food service operations."
+      },
+      {
+        "brand": "Paperbake",
+        "product_name": "Paperbake baking tray",
+        "reason": "Ideal for a company involved in baking or providing baked goods, offering recyclable and oven-safe options."
+      }
+    ]
+  },
+  "raw_gpt4o_output": "To provide an accurate analysis, I would need specific details about the company's business focus, industry, or product needs from their website content. However, since the company description is not provided, I will make some assumptions based on the company name \"Together & Company\" and the product catalog. Assuming the company is involved in food service, catering, or retail packaging, here are the top 3 most relevant products:\n\n```json\n[\n  {\n    \"brand\": \"Octo\",\n    \"product_name\": \"Octo compostable container\",\n    \"reason\": \"Fits the company's potential focus on eco-friendly and sustainable packaging solutions for food service applications.\"\n  },\n  {\n    \"brand\": \"Freskboard\",\n    \"product_name\": \"Freskboard medium container\",\n    \"reason\": \"Suitable for take-out or street food, which aligns with potential catering or food service operations.\"\n  },\n  {\n    \"brand\": \"Paperbake\",\n    \"product_name\": \"Paperbake baking tray\",\n    \"reason\": \"Ideal for a company involved in baking or providing baked goods, offering recyclable and oven-safe options.\"\n  }\n]\n```\n\nIf you can provide more specific information about the company's industry or focus, I can refine the product selection further."
+}

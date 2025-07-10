@@ -1,26 +1,34 @@
 {
   "company_name": "Sparta Imports",
-  "matched_products": [
-    {
-      "product_name": "large container",
-      "brand": "Freskboard",
-      "score": 0.274
-    },
-    {
-      "product_name": "small container",
-      "brand": "Freskboard",
-      "score": 0.272
-    },
-    {
-      "product_name": "medium container",
-      "brand": "Freskboard",
-      "score": 0.272
-    },
-    {
-      "product_name": "extra-large container",
-      "brand": "Freskboard",
-      "score": 0.264
-    }
-  ],
-  "missing_website_data": false
+  "missing_website_data": false,
+  "matches": {
+    "gpt4o": [
+      {
+        "brand": "Octo",
+        "product_name": "Octo oven safe containers",
+        "reason": "These containers are suitable for commercial and industrial kitchens, aligning with Sparta Imports' focus on high-quality kitchen equipment and foodservice applications."
+      },
+      {
+        "brand": "Octo",
+        "product_name": "Octo compostable container",
+        "reason": "Sparta Imports emphasizes high standards and quality, and these compostable containers meet environmental standards, which is important for modern commercial kitchens."
+      },
+      {
+        "brand": "Freskboard",
+        "product_name": "Freskboard large container",
+        "reason": "These containers are ideal for take-out or street food, which complements Sparta Imports' expertise in equipping commercial kitchens that may offer such services."
+      },
+      {
+        "brand": "Paperbake",
+        "product_name": "Paperbake baking tray",
+        "reason": "Sparta Imports' focus on high-quality kitchen equipment makes these oven-safe baking trays relevant for their commercial and industrial kitchen clients."
+      },
+      {
+        "brand": "Fastfood",
+        "product_name": "Fastfood Food tray",
+        "reason": "These trays are relevant for American restaurant chains, which could be part of Sparta Imports' target market given their experience in the restaurant industry."
+      }
+    ]
+  },
+  "raw_gpt4o_output": "```json\n[\n  {\n    \"brand\": \"Octo\",\n    \"product_name\": \"Octo oven safe containers\",\n    \"reason\": \"These containers are suitable for commercial and industrial kitchens, aligning with Sparta Imports' focus on high-quality kitchen equipment and foodservice applications.\"\n  },\n  {\n    \"brand\": \"Octo\",\n    \"product_name\": \"Octo compostable container\",\n    \"reason\": \"Sparta Imports emphasizes high standards and quality, and these compostable containers meet environmental standards, which is important for modern commercial kitchens.\"\n  },\n  {\n    \"brand\": \"Freskboard\",\n    \"product_name\": \"Freskboard large container\",\n    \"reason\": \"These containers are ideal for take-out or street food, which complements Sparta Imports' expertise in equipping commercial kitchens that may offer such services.\"\n  },\n  {\n    \"brand\": \"Paperbake\",\n    \"product_name\": \"Paperbake baking tray\",\n    \"reason\": \"Sparta Imports' focus on high-quality kitchen equipment makes these oven-safe baking trays relevant for their commercial and industrial kitchen clients.\"\n  },\n  {\n    \"brand\": \"Fastfood\",\n    \"product_name\": \"Fastfood Food tray\",\n    \"reason\": \"These trays are relevant for American restaurant chains, which could be part of Sparta Imports' target market given their experience in the restaurant industry.\"\n  }\n]\n```"
 }

@@ -1,9 +1,14 @@
 import openai
 import datetime
+import os
 from agent.memory_manager import get_conversation, update_conversation, mark_as_manual
 from utils.logger import logger
 from utils.prompts import REPLY_ANALYSIS_PROMPT
+from dotenv import load_dotenv
 
+
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def gpt_analyze_reply(conversation_history: list, latest_reply: str) -> dict:
     """Analyze the reply and return intent and recommended next action."""
@@ -11,15 +16,14 @@ def gpt_analyze_reply(conversation_history: list, latest_reply: str) -> dict:
         [f"{msg['sender']}: {msg['content']}" for msg in conversation_history]
     )
     prompt = REPLY_ANALYSIS_PROMPT.format(
-        conversation_history=formatted_history,
-        latest_reply=latest_reply
+        email_history=formatted_history
     )
     try:
-        response = openai.ChatCompletion.create(
+        response = openai.chat.completions.create(
             model="gpt-4o",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.5,
-            max_tokens=300
+            max_tokens=400
         )
         import json
         return json.loads(response.choices[0].message.content)
