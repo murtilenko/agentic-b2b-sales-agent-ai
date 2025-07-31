@@ -1,0 +1,5 @@
+{
+  "intent": "asking for more information",
+  "should_continue": "yes",
+  "next_reply": "Hello [Lead's Name],\n\nThank you for your interest in learning more about our products. I'm happy to provide additional information on our sustainability certifications. Our Paperbake baking trays and Octo compostable containers are both certified by [Certification Body Name], which ensures they meet rigorous industry standards for environmental sustainability. We can provide detailed documentation upon request.\n\nAs for references, we have successfully partnered with several businesses similar to Cake Bae, such as [Business Name] and [Another Business Name]. They have found our products to be a valuable addition to their operations. I would be happy to connect you with them for testimonials.\n\nPlease let me know if you would like further details or if there's anything else I can assist you with.\n\nWarm regards,\n\n[Your Name]\n[Your Position]\nMJ Supplies"
+}

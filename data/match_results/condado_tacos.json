@@ -1,0 +1,24 @@
+{
+  "company_name": "Condado Tacos",
+  "missing_website_data": false,
+  "matches": {
+    "gpt4o": [
+      {
+        "brand": "Fastfood",
+        "product_name": "Food tray",
+        "reason": "Condado Tacos offers dine-in options and a variety of food items like tacos and burritos, making food trays suitable for serving multiple items together."
+      },
+      {
+        "brand": "Freskboard",
+        "product_name": "Medium container",
+        "reason": "Condado Tacos provides take-out options, and medium containers are ideal for packaging items like tacos and burritos for customers on the go."
+      },
+      {
+        "brand": "Octo",
+        "product_name": "Grease barrier container",
+        "reason": "With a focus on tacos and burritos, which can be greasy, these containers help maintain food quality and prevent leaks during take-out or delivery."
+      }
+    ]
+  },
+  "raw_gpt4o_output": "```json\n[\n  {\n    \"brand\": \"Fastfood\",\n    \"product_name\": \"Food tray\",\n    \"reason\": \"Condado Tacos offers dine-in options and a variety of food items like tacos and burritos, making food trays suitable for serving multiple items together.\"\n  },\n  {\n    \"brand\": \"Freskboard\",\n    \"product_name\": \"Medium container\",\n    \"reason\": \"Condado Tacos provides take-out options, and medium containers are ideal for packaging items like tacos and burritos for customers on the go.\"\n  },\n  {\n    \"brand\": \"Octo\",\n    \"product_name\": \"Grease barrier container\",\n    \"reason\": \"With a focus on tacos and burritos, which can be greasy, these containers help maintain food quality and prevent leaks during take-out or delivery.\"\n  }\n]\n```"
+}

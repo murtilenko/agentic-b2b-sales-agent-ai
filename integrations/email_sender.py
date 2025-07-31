@@ -15,7 +15,7 @@ EMAIL_ADDRESS = os.getenv("EMAIL_ADDRESS")  # Your sender email
 EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")  # App password or real password (if less secure apps enabled)
 EMAILS_DIR = "data/emails"
 LEADS_FILE = "data/leads_parsed.json"
-LIMIT = 2  # 🔁 Only send to this many leads
+LIMIT = 10  # 🔁 Only send to this many leads
 
 # === Load leads ===
 def load_leads():

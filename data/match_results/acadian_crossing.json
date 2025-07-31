@@ -1,0 +1,24 @@
+{
+  "company_name": "Acadian Crossing",
+  "missing_website_data": false,
+  "matches": {
+    "gpt4o": [
+      {
+        "brand": "Boardsio",
+        "product_name": "Retail Coffee Box",
+        "reason": "Acadian Crossing is a private label product development and distribution company, and the Retail Coffee Box aligns with their focus on CPG branded capabilities and eco-friendly packaging solutions for consumer goods."
+      },
+      {
+        "brand": "Boardsio",
+        "product_name": "Retail Protein Powder Box",
+        "reason": "The Retail Protein Powder Box fits Acadian Crossing's business model of developing and distributing private label products with a focus on eco-friendly packaging, which is a growing trend in consumer goods."
+      },
+      {
+        "brand": "Octo",
+        "product_name": "Compostable Container",
+        "reason": "Acadian Crossing's emphasis on leveraging global manufacturing for cost management and risk mitigation aligns with offering premium, sustainable packaging solutions like the Octo Compostable Container for foodservice applications."
+      }
+    ]
+  },
+  "raw_gpt4o_output": "```json\n[\n  {\n    \"brand\": \"Boardsio\",\n    \"product_name\": \"Retail Coffee Box\",\n    \"reason\": \"Acadian Crossing is a private label product development and distribution company, and the Retail Coffee Box aligns with their focus on CPG branded capabilities and eco-friendly packaging solutions for consumer goods.\"\n  },\n  {\n    \"brand\": \"Boardsio\",\n    \"product_name\": \"Retail Protein Powder Box\",\n    \"reason\": \"The Retail Protein Powder Box fits Acadian Crossing's business model of developing and distributing private label products with a focus on eco-friendly packaging, which is a growing trend in consumer goods.\"\n  },\n  {\n    \"brand\": \"Octo\",\n    \"product_name\": \"Compostable Container\",\n    \"reason\": \"Acadian Crossing's emphasis on leveraging global manufacturing for cost management and risk mitigation aligns with offering premium, sustainable packaging solutions like the Octo Compostable Container for foodservice applications.\"\n  }\n]\n```"
+}

@@ -1,0 +1,24 @@
+{
+  "company_name": "Buettner Global Services",
+  "missing_website_data": false,
+  "matches": {
+    "gpt4o": [
+      {
+        "brand": "Octo",
+        "product_name": "Octo compostable container",
+        "reason": "Buettner Global Services focuses on high-performance sourcing and procurement in the food service industry, and these containers offer eco-friendly, versatile options for foodservice applications."
+      },
+      {
+        "brand": "Freskboard",
+        "product_name": "Freskboard large container",
+        "reason": "The company deals with food service and retail, and these containers are suitable for take-out or street food, aligning with their procurement needs."
+      },
+      {
+        "brand": "Skinpck",
+        "product_name": "Skinpck Raw Meat Box",
+        "reason": "Buettner Global Services is involved in the food service industry, and these boxes provide a sustainable packaging solution for raw meat, which is relevant for their sourcing and procurement services."
+      }
+    ]
+  },
+  "raw_gpt4o_output": "```json\n[\n  {\n    \"brand\": \"Octo\",\n    \"product_name\": \"Octo compostable container\",\n    \"reason\": \"Buettner Global Services focuses on high-performance sourcing and procurement in the food service industry, and these containers offer eco-friendly, versatile options for foodservice applications.\"\n  },\n  {\n    \"brand\": \"Freskboard\",\n    \"product_name\": \"Freskboard large container\",\n    \"reason\": \"The company deals with food service and retail, and these containers are suitable for take-out or street food, aligning with their procurement needs.\"\n  },\n  {\n    \"brand\": \"Skinpck\",\n    \"product_name\": \"Skinpck Raw Meat Box\",\n    \"reason\": \"Buettner Global Services is involved in the food service industry, and these boxes provide a sustainable packaging solution for raw meat, which is relevant for their sourcing and procurement services.\"\n  }\n]\n```"
+}

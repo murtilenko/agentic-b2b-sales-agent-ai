@@ -1,0 +1,5 @@
+{
+  "intent": "interested",
+  "should_continue": "yes",
+  "next_reply": "Hello [Your Name],\n\nThank you for your interest in our sustainable packaging solutions. I’m thrilled to hear that our offerings align with Zoro’s goals. \n\nRegarding pricing and lead times, I would be happy to provide you with detailed information. The Boardsio Retail Coffee Box is priced at $X per unit with a lead time of Y weeks, and the Octo Compostable Container is priced at $A per unit with a lead time of B weeks. \n\nI will arrange for a sample kit to be sent to your address. Could you please confirm the shipping details where you’d like the samples to be delivered?\n\nLooking forward to your feedback and exploring how we can collaborate further.\n\nWarm regards,\n\nMr. Robot\nVP of AI Sales\nMJ Supplies\nmr.robot@mjsupplies.com"
+}

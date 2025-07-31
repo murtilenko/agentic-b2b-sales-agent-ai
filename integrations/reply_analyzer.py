@@ -13,7 +13,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 EMAILS_DIR = "data/emails"
 REPLIES_DIR = "data/replies"
-MAX_ANALYSIS = 3  # Set how many leads to process
+MAX_ANALYSIS = 10  # Set how many leads to process
 
 # === Loaders ===
 def load_sent_emails():
@@ -64,6 +64,13 @@ def gpt_analyze_reply(sent_email: str, reply: str) -> dict:
         logger.error(f"❌ GPT analysis failed: {e}")
         return {"should_continue": False, "next_reply": None}
 
+# === Helper: Save Analysis ===
+
+def save_analysis_result(lead_id: str, analysis: dict):
+    os.makedirs("data/analyzed_replies", exist_ok=True)
+    file_path = os.path.join("data/analyzed_replies", f"{lead_id}.json")
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump(analysis, f, indent=2, ensure_ascii=False)
 
 # === Main ===
 def run_analysis():
@@ -85,6 +92,7 @@ def run_analysis():
 
         logger.info(f"🔍 Analyzing reply for: {lead_id}")
         analysis = gpt_analyze_reply(sent, reply)
+        save_analysis_result(lead_id, analysis)
 
         # Build conversation
         conversation = [
